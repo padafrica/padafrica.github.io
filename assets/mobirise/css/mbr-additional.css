@@ -2105,6 +2105,9 @@ body {
 .cid-rsdGtmS34O P {
   color: #232323;
 }
+.cid-rsdGtmS34O .card-title {
+  color: #f94a22;
+}
 .cid-rt1ufAEMPF {
   padding-top: 0px;
   padding-bottom: 45px;
@@ -2130,6 +2133,9 @@ body {
 }
 .cid-rt1ufAEMPF P {
   color: #232323;
+}
+.cid-rt1ufAEMPF .card-title {
+  color: #f94a22;
 }
 .cid-rsdGxYLgI7 {
   padding-top: 0px;
@@ -2193,16 +2199,16 @@ body {
   background: #ef3600;
 }
 .cid-rsdGxYLgI7 .progress1 .progressbar-number:before {
-  content: '100';
+  content: '79';
 }
 .cid-rsdGxYLgI7 .progress2 .progressbar-number:before {
-  content: '90';
+  content: '61';
 }
 .cid-rsdGxYLgI7 .progress3 .progressbar-number:before {
-  content: '80';
+  content: '65';
 }
 .cid-rsdGxYLgI7 .progress4 .progressbar-number:before {
-  content: '70';
+  content: '50';
 }
 .cid-rsdGxYLgI7 .progress5 .progressbar-number:before {
   content: '60';
@@ -2503,6 +2509,9 @@ body {
 }
 .cid-rsdGDALokP .foot-title B {
   color: #a6a6a6;
+}
+.cid-rsdGDALokP .foot-logo {
+  color: #f94a22;
 }
 .cid-rsdGnF7SYr .navbar {
   padding: .5rem 0;
