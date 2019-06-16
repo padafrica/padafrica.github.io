@@ -763,7 +763,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/b-87-1600x1066.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -782,8 +782,8 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/canva-null-1-2000x1333.jpg",
-                "active": false,
-                "showButtons": false,
+                "active": true,
+                "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
