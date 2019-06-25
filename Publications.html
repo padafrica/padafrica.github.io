@@ -10,7 +10,6 @@
   <meta name="description" content="Publications">
   
   <title>Publications</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -18,8 +17,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -52,63 +52,119 @@
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Home</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="https://mobirise.com" aria-expanded="false" data-toggle="dropdown-submenu"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>About Us</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="about us.html" aria-expanded="false">Our Vision<br></a><a class="dropdown-item text-white display-4" href="about us.html" aria-expanded="false">Our Mission</a><a class="dropdown-item text-white display-4" href="about us.html" aria-expanded="false">Our Background<br></a><div class="dropdown"><a class="dropdown-item text-white dropdown-toggle display-4" href="about us.html" aria-expanded="false" data-toggle="dropdown-submenu">Our Team</a><div class="dropdown-menu dropdown-submenu"><a class="dropdown-item text-white display-4" href="about us.html" aria-expanded="false">Our Board Members</a><a class="dropdown-item text-white display-4" href="about us.html" aria-expanded="false">Secretraite</a></div></div></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="https://mobirise.com" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>What We Do<br></a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="what we do.html" aria-expanded="false">Maternal &amp; Child Health</a><a class="dropdown-item text-white display-4" href="what we do.html" aria-expanded="false">Women Empowerment</a><a class="dropdown-item text-white display-4" href="what we do.html" aria-expanded="false">Adolescent &amp; Sexual Reproductive Health</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false">Hepatitis &amp; HIV awareness</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false">Nutritional education</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false"> Environmental protection</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false">Our target areas</a></div></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Where we work.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Where we work<br></a></li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="https://mobirise.com" aria-expanded="false" data-toggle="dropdown-submenu"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Resources<br></a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="Publications.html" aria-expanded="false">Publications</a></div></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Contact us.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Contact Us</a></li></ul>
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Home</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="https://mobirise.com" aria-expanded="false" data-toggle="dropdown-submenu"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>About Us</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="about us.html#header1-2k" aria-expanded="false">Vision &amp;&nbsp;Mission<br></a><a class="text-white dropdown-item display-4" href="about us.html#header1-4z" aria-expanded="false">Our Core Values</a><a class="dropdown-item text-white display-4" href="about us.html#header1-4z" aria-expanded="false">Our Background<br></a><div class="dropdown"><a class="dropdown-item text-white dropdown-toggle display-4" href="about us.html" aria-expanded="false" data-toggle="dropdown-submenu">Our Team</a><div class="dropdown-menu dropdown-submenu"><a class="dropdown-item text-white display-4" href="about us.html#team1-1m" aria-expanded="false">Board Members</a><a class="dropdown-item text-white display-4" href="about us.html#team1-2n" aria-expanded="false">Our Secretraite</a></div></div></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="https://mobirise.com" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>What We Do<br></a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="what we do.html#services1-4b" aria-expanded="false">Maternal &amp; Child Health</a><a class="dropdown-item text-white display-4" href="what we do.html#services1-47" aria-expanded="false">Women Empowerment</a><a class="dropdown-item text-white display-4" href="what we do.html#services1-4j" aria-expanded="false">Adolescent &amp; Sexual<br> Reproductive Health</a><a class="text-white dropdown-item display-4" href="what we do.html#services2-4a" aria-expanded="false">Hepatitis &amp; HIV awareness</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false">Nutritional education</a><a class="text-white dropdown-item display-4" href="what we do.html" aria-expanded="false"> Environmental protection</a></div></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Where we work.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Where we work<br></a></li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="https://mobirise.com" aria-expanded="false" data-toggle="dropdown-submenu"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Resources<br></a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="Publications.html" aria-expanded="false">Publications</a><a class="text-white dropdown-item display-4" href="Publications.html" aria-expanded="false">Reports</a></div></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Contact us.html" aria-expanded="false"><span class="mbrib-users mbr-iconfont mbr-iconfont-btn" style="font-size: 11px; color: rgb(255, 255, 255);"></span>Contact Us</a></li></ul>
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-secondary display-4" href="donate.html"><span class="mbrib-hearth mbr-iconfont mbr-iconfont-btn" style="font-size: 15px; color: rgb(255, 255, 255);"></span>Donate</a></div>
         </div>
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/z">best free html templates</a></section><section class="features6 cid-rud6RJh1xQ" id="features6-4h">
-    
-    
+<section class="engine"><a href="https://mobirise.info/u">bootstrap responsive templates</a></section><section class="header1 cid-ruiXCW8c5x mbr-parallax-background" id="header1-62">
 
     
+
+    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(3, 113, 28);">
+    </div>
+
     <div class="container">
-        <div class="media-container-row">
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                    <span class="mbr-iconfont mbri-pages"></span>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>Work plan &amp; Budget</strong><br></h4>
-                    <p class="mbr-text mbr-fonts-style display-7"></p>
-                </div>
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                    <br><br><div><strong>A List of our recently uploaded Resources.</strong></div></h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Find here reports, Publications, about women empowerment &amp; raising girls voices, as well as capacity building tools for organisations and individuals working to end child marriages &amp; suffering.<br>
+                </p>
+                
             </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                    <a href="assets/files/NATIONAL SEXUALITY EDUCATION FRAMEWORK.pdf"><span class="mbr-iconfont mbri-pages"></span></a>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        <a href="assets/files/NATIONAL SEXUALITY EDUCATION FRAMEWORK.pdf">National sexual education framework</a></strong><br><br><a href="assets/files/NATIONAL%20SEXUALITY%20EDUCATION%20FRAMEWORK.pdf">Download</a></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                    <a href="assets/files/Tsongo.pdf"><span class="mbr-iconfont mbri-pages"></span></a>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7">Helicobacter pylori among patients with symptoms of gastroduodenal ulcer disease in rural Uganda by <a href="about us.html#team1-1m">Lawrence Tsongo Vice Chairperson BOD</a><br><br><a href="assets/files/Tsongo.pdf">Download</a></h4>
-                    <p class="mbr-text mbr-fonts-style display-7"><strong>INTRODUCTION
-</strong><br>To meet key millennium development goals, the rural population needs to be reached for health assessment and service delivery. Gastroduodenal ulcer disease is a common ailment affecting the health of people in Uganda. A cross-sectional study was conducted at Bwera Hospital in Kasese district of western Uganda, to establish the prevalence and predisposing factors of Helicobacter pylori among gastroduodenal ulcer disease patients.</p>
-                </div>
-            </div>
-
-            
-
         </div>
-
     </div>
 
 </section>
 
-<section class="progress-bars2 cid-rtA1bUMu1O" id="progress-bars2-23">
+<section class="section-table cid-ruj1sxrK0G" id="table1-63">
+
+  
+  
+  <div class="container container-table">
+      
+      
+      <div class="table-wrapper">
+        <div class="container">
+          <div class="row search">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="dataTables_filter">
+                  <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+                  <input class="form-control input-sm" disabled="">
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container scroll">
+          <table class="table isSearch" cellspacing="0">
+            <thead>
+              <tr class="table-heads ">
+                  
+                  
+                  
+                  
+              <th class="head-item mbr-fonts-style display-7">RESOURCE TITLE</th><th class="head-item mbr-fonts-style display-7">RESOURCE TYPE</th><th class="head-item mbr-fonts-style display-7">DESIGNATED BODY OR RESEARCHER</th><th class="head-item mbr-fonts-style display-7">
+                      STATUS</th></tr>
+            </thead>
+
+            <tbody>
+              
+              
+              
+              
+            <tr> 
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7">Helicobacter pylori<br>for details, Download</td><td class="body-item mbr-fonts-style display-7">Publication</td><td class="body-item mbr-fonts-style display-7"><a href="about us.html#team1-1m">Mr. Lawrence Tsongo</a> Vice Chairperson BOD PADAFRICA</td><td class="body-item mbr-fonts-style display-7"><a href="assets/files/Tsongo.pdf">Download Here</a></td></tr><tr>
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7">Work plan &amp; Budget</td><td class="body-item mbr-fonts-style display-7">Report</td><td class="body-item mbr-fonts-style display-7">Mr. Charles Bwambale Executive Director PADAFRICA</td><td class="body-item mbr-fonts-style display-7">UnAvailable</td></tr><tr>
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7">National sexual education framework</td><td class="body-item mbr-fonts-style display-7">Publication</td><td class="body-item mbr-fonts-style display-7">Ministry of Health Uganda</td><td class="body-item mbr-fonts-style display-7"><a href="assets/files/NATIONAL SEXUALITY EDUCATION FRAMEWORK.pdf">Download Here</a></td></tr><tr>
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7">Annual Report 2017</td><td class="body-item mbr-fonts-style display-7">Report</td><td class="body-item mbr-fonts-style display-7">Mr. Charles Bwambale Executive Director PADAFRICA</td><td class="body-item mbr-fonts-style display-7">UnAvailable</td></tr><tr>
+                
+                
+                
+                
+              <td class="body-item mbr-fonts-style display-7">Uganda Demographic and Health Survey 2016</td><td class="body-item mbr-fonts-style display-7">Publication</td><td class="body-item mbr-fonts-style display-7">Uganda Bureau of Statistics&nbsp;</td><td class="body-item mbr-fonts-style display-7"><a href="assets/files/2016-UDHS_0.pdf">Download Here</a></td></tr></tbody>
+          </table>
+        </div>
+        <div class="container table-info-container">
+          <div class="row info">
+            <div class="col-md-6">
+              <div class="dataTables_info mbr-fonts-style display-7">
+                <span class="infoBefore">Showing</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoAfter">entries</span>
+                <span class="infoFilteredBefore">(filtered from</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoFilteredAfter"> total entries)</span>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="progress-bars2 cid-ruiR1BhCIM" id="progress-bars2-5d">
     
      
 
@@ -116,17 +172,15 @@
 
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-1">
-            Projects We've Worked Upon&nbsp;</h2>
+            Projects We're Working Upon&nbsp;</h2>
 
-        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">We partner with trusted, established organizations and individuals who share our passion to see women &amp; Girls' lives changed in communities around the world. for interested parties, Contact PADAFRICA for more information below.le it.
-        </h3>
+        <h3 class="mbr-section-subtitle mbr-fonts-style display-7">We welcome partnership with trusted, established organizations and individuals who share our passion to see women &amp; Girls' lives changed in communities around the world. for interested parties, Contact PADAFRICA or visit our social media for more information below.</h3>
 
         <div class="row pt-5 mt-5">
             <div class="col-md-6 text-elements">
-                <h4 class="section-content-title pb-3 align-left mbr-fonts-style display-5">
-                    A modular approach  
+                <h4 class="section-content-title pb-3 align-left mbr-fonts-style display-5">Using a modular approach  
                 </h4>
-                <p class="section-content-text align-left mbr-fonts-style display-7">PADAFRICA catalyse action by bring together adverse voices and interests that drive progress for gender equity with particular focus on maternal, sexual and reproductive health, improve Water, Sanitation and Hygiene in communities, schools to increase girls access to education , economic empowerment and environmental conservation 
+                <p class="section-content-text align-left mbr-fonts-style display-7">PADAFRICA catalyse action by bring together adverse voices and interests that drive progress for gender equity with particular focus on maternal, sexual and reproductive health, improve Water, Sanitation and Hygiene in communities, schools to increase girls access to education , economic empowerment and environmental conservation <br>
 <br>The organisation has became a stand out NGO demonstrating a community based approach in the transformation and development of communities.&nbsp;</p>
             </div>
             <div class="progress_elements col-md-6">
@@ -142,7 +196,7 @@
                             <span>%</span>
                         </div>
                     </div>
-                    <progress class="progress progress-primary " max="100" value="79">
+                    <progress class="progress progress-primary " max="100" value="20">
                     </progress>
                 </div>
                  
@@ -150,7 +204,7 @@
                     <div class="title-wrap">
                         <div class="progressbar-title mbr-fonts-style display-7">
                             <p>
-                                Maternal &amp; Child Health</p>
+                                Gender Equality</p>
                         </div>
                     <div class="progress_value mbr-fonts-style display-7">
                         <div class="progressbar-number">
@@ -158,14 +212,14 @@
                         <span>%</span>
                     </div>
                     </div>
-                    <progress class="progress progress-primary" max="100" value="61">
+                    <progress class="progress progress-primary" max="100" value="24">
                     </progress>
                 </div>
                 
                 <div class="progress3 pb-5">
                     <div class="title-wrap">
                         <div class="progressbar-title mbr-fonts-style display-7">
-                            <p>Reproductive &amp; Adolescent Health.</p>
+                            <p>Reproductive, Maternal, Child Health&nbsp;&amp; Adolescent Health.</p>
                         </div>
                     <div class="progress_value mbr-fonts-style display-7">
                         <div class="progressbar-number">
@@ -173,11 +227,26 @@
                         <span>%</span>
                     </div>
                     </div>
-                    <progress class="progress progress-primary" max="100" value="65">
+                    <progress class="progress progress-primary" max="100" value="13">
                     </progress>
                 </div>
                 
                 <div class="progress4 pb-5">
+                    <div class="title-wrap">
+                        <div class="progressbar-title mbr-fonts-style display-7">
+                            <p>Raising Girls' Voices</p>
+                        </div>
+                    <div class="progress_value mbr-fonts-style display-7">
+                        <div class="progressbar-number">
+                        </div>
+                        <span>%</span>
+                    </div>
+                    </div>
+                    <progress class="progress progress-primary" max="100" value="18">
+                    </progress>
+                </div>
+            
+                <div class="progress5 pb-5">
                     <div class="title-wrap">
                         <div class="progressbar-title mbr-fonts-style display-7">
                             <p>Hepatitis Immunisation &amp; awareness in the community</p>
@@ -188,21 +257,19 @@
                         <span>%</span>
                     </div>
                     </div>
-                    <progress class="progress progress-primary" max="100" value="50">
+                    <progress class="progress progress-primary" max="100" value="8">
                     </progress>
                 </div>
-            
-                
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section form4 cid-rtA1ejuoky mbr-parallax-background" id="form4-24">
+<section class="mbr-section form4 cid-ruiQZNSS1B mbr-parallax-background" id="form4-5c">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(35, 35, 35);">
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(171, 65, 27);">
     </div>
     <div class="container">
         <div class="row">
@@ -221,31 +288,35 @@
                         </h4>
                     </div>
                     <div class="icon-contacts pb-3">
-                        <h5 class="align-left mbr-fonts-style display-7">
-                            Ready for offers and cooperation
-                        </h5>
+                        <h5 class="align-left mbr-fonts-style display-7"></h5>
                         <p class="mbr-text align-left mbr-fonts-style display-7">
-                            Phone: +256 773 324 875 <br>
-                            Email: info@padafrica.org
+                            Phone: +256 773 324 875<br>
+                            Email: info@padafrica.org<br>Address:<br>P. O.box 373, Kasese – Western Uganda 
+<br>East Africa Kiburara Trading Center 
+<br>Along Bwera – Kasese High Way <br>Working Hours:0800am-0500pm<br>Monday-Friday
                         </p>
                     </div>
                 </div>
                 <div data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="vRO/5noq600A6zkjqQvarIs0o4dlMxmlX25eC8n3dPluP+epQpi0jnrNJIaLU2NIWrB5CJG1O5sinotKAXPP+YycQUAiFma9fauUue+vaHCgp4Jn22uM4QnZ5vCRgHGv">
+                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="yvhnVPDNP2/JrOkghxYBrtrHuJX3LfsU/xcvoizxvHRylzneiyhaDfrgDfeNlZQ+4eWskp2FZ9z2hDIpD1KVyCzxLVaxZ7e2v1u6qDK9AAtqIwX5p9MLRXyUfOXbqy2O">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                             </div>
                         </div>
                         <div class="dragArea row">
-                            
-                            
+                            <div class="col-md-6  form-group" data-for="name">
+                                <input type="text" name="name" placeholder="Your Name" data-form-field="Name" required="required" class="form-control input display-7" id="name-form4-5c">
+                            </div>
+                            <div class="col-md-6  form-group" data-for="phone">
+                                <input type="text" name="phone" placeholder="Phone" data-form-field="Phone" required="required" class="form-control input display-7" id="phone-form4-5c">
+                            </div>
                             <div data-for="email" class="col-md-12  form-group">
-                                <input type="text" name="email" placeholder="Email" data-form-field="Email" class="form-control input display-7" required="required" id="email-form4-24">
+                                <input type="text" name="email" placeholder="Email" data-form-field="Email" class="form-control input display-7" required="required" id="email-form4-5c">
                             </div>
                             <div data-for="message" class="col-md-12  form-group">
-                                <textarea name="message" placeholder="Message" data-form-field="Message" class="form-control input display-7" id="message-form4-24"></textarea>
+                                <textarea name="message" placeholder="Message" data-form-field="Message" class="form-control input display-7" id="message-form4-5c"></textarea>
                             </div>
                             <div class="col-md-12 input-group-btn  mt-2 align-center"><button type="submit" class="btn btn-form btn-secondary display-4">SEND MESSAGE</button></div>
                         </div>
@@ -256,7 +327,7 @@
     </div>
 </section>
 
-<section class="carousel slide testimonials-slider cid-rtA1f97Ccz" data-interval="false" id="testimonials-slider1-25">
+<section class="carousel slide testimonials-slider cid-ruiQWIxSov" data-interval="false" id="testimonials-slider1-5b">
     
     
 
@@ -357,95 +428,23 @@
     </div>
 </section>
 
-<section class="mbr-section contacts3 cid-rtA1g3Xz0J" id="contacts3-26">
-    <!---->
+<section class="mbr-section content4 cid-ruiQRsoota" id="content4-5a">
+
     
-    <!---->
-    <!--Overlay-->
-    
-    <!--Container-->
+
     <div class="container">
-        <div class="row">
-            <!--Titles-->
-            <div class="title col-12">
-                <h2 class="align-left mbr-fonts-style display-1">
-                    Our Contacts
-                </h2>
-                <h3 class="mbr-section-subtitle pt-2 mbr-light mbr-fonts-style display-7">A community based organisation for women that was formed in 2015. It is registered at thedistrict as a CBO with<br>No.CBO/1749. It is also subsequently registered with the district network for CSO’s in the<br> district – Kasese district development network (KADDE – Net)&nbsp;</h3>
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="wrapper">
-                            <span class="iconfont-wrapper">
-                                <span class="amp-iconfont icon fa-thumbs-o-up fa mobi-mbri-like mobi-mbri"></span>
-                            </span>
-                            <div class="b-info b-adress">
-                                <h5 class="align-left mbr-fonts-style display-5">
-                                    Address:
-                                </h5>
-                                <p class="mbr-text align-left mbr-fonts-style display-7">People’s Action of Development of Africa
-<br>P. O.box 373, Kasese – Uganda 
-<br>East Africa Kiburara Trading Center
-<br>Along Bwera – Kasese High Way
-<br>Western Uganda</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="wrapper">
-                            <span class="iconfont-wrapper">
-                                <span class="amp-iconfont icon fa-phone fa mobi-mbri-phone mobi-mbri"></span>
-                            </span>
-                            <div class="b-info b-phone">
-                                <h5 class="align-left mbr-fonts-style display-5">
-                                    Phone:
-                                </h5>
-                                <p class="mbr-text align-left mbr-fonts-style display-7">
-                                    Tel:	+256 773 324 875
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="wrapper">
-                            <span class="iconfont-wrapper">
-                                <span class="amp-iconfont icon fa-comment-o fa mobi-mbri-letter mobi-mbri"></span>
-                            </span>
-                            <div class="b-info b-mail">
-                                <h5 class="align-left mbr-fonts-style display-5">
-                                    E-mail:
-                                </h5>
-                                <p class="mbr-text align-left mbr-fonts-style display-7">
-                                    info@padafrica.org<br> 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="wrapper">
-                            <span class="iconfont-wrapper">
-                                <span class="amp-iconfont icon fa-th-large fa mbrib-extension"></span>
-                            </span>
-                            <div class="b-info b-mail">
-                                <h5 class="align-left mbr-fonts-style display-5">
-                                    Working Hours:
-                                </h5>
-                                <p class="mbr-text align-left mbr-fonts-style display-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fuga labore
-                                    modi natus quos veritatis?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">We partner with trusted, established organizations and individuals who share our passion to see women &amp; Girls' lives changed in communities around the world. <br>for interested parties, Contact PADAFRICA or visit our <br>contact us page for more information below.</h3>
+                
             </div>
         </div>
     </div>
 </section>
 
-<section class="cid-rtA1hmLIAz" id="social-buttons3-27">
-    
+<section class="cid-ruiQPYhXDj" id="social-buttons2-59">
+
     
 
     
@@ -453,30 +452,33 @@
     <div class="container">
         <div class="media-container-row">
             <div class="col-md-8 align-center">
-                <h2 class="pb-3 mbr-section-title mbr-fonts-style display-1">Follow Us&nbsp;</h2>
-                <div>
-                    <div class="mbr-social-likes">
-                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
-                            <i class="socicon socicon-facebook"></i>
-                        </span>
-                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
-                            <i class="socicon socicon-twitter"></i>
-                        </span>
-                        <span class="btn btn-social plusone socicon-bg-googleplus mx-2" title="Share link on Google+">
-                            <i class="socicon socicon-googleplus"></i>
-                        </span>
+                
+                <div class="social-list pl-0 mb-0">
+                    <a href="https://twitter.com/PADAFRICA1" target="_blank">
+                        <span class="px-2 mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(103, 209, 245); fill: rgb(103, 209, 245);"></span>
+                    </a>
+                    <a href="https://www.facebook.com/Peoples-Action-for-Development-of-Africa-317704995397865/" target="_blank">
+                        <span class="px-2 mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153);"></span>
+                    </a>
+                    <a href="https://instagram.com/padafrica" target="_blank">
+                        <span class="px-2 mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                    </a>
+                    <a href="https://www.youtube.com/padafrica" target="_blank">
+                        <span class="px-2 mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                    </a>
+                    <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
                         
+                    </a>
+                    <a href="https://www.behance.net/Mobirise" target="_blank">
                         
-                        
-                        
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="footer3 cid-rtA1iexGWz mbr-reveal" id="footer3-28">
+<section class="footer3 cid-ruiQoixAcG" id="footer3-55">
 
     
 
@@ -490,30 +492,29 @@
                          <img src="assets/images/pada-logo-1-192x192.jpg" alt="Mobirise" title="">
                     </a>
                 </div>
-                <p class="mbr-fonts-style foot-logo display-2"><strong>
-                        PADAFRICA</strong></p>
+                <p class="mbr-fonts-style foot-logo display-5"><strong><a href="index.html" class="text-success">
+                        PADAFRICA</a><br><a href="index.html" class="text-success">empowering </a><br><a href="index.html" class="text-success">Girls &amp; women</a></strong></p>
             </div>
             <div class="col-md-3 col-sm-4">
                 <p class="mb-4 mbr-fonts-style foot-title display-7"><font color="#a6a6a6"><strong>ABOUT US</strong></font></p>
                 <p class="mbr-text mbr-links-column mbr-fonts-style display-7">
                     <a href="about us.html" class="text-primary"></a><a href="about us.html">About us
-</a>                    <br><a href="about us.html" class="text-success">Our Vision&nbsp;</a><br><a href="about us.html" class="text-black">Our Mission</a><br><a href="about us.html" class="text-black">Our Background</a><br><a href="about us.html" class="text-black">Our Team</a><br><br><a href="about us.html">Our Board Members</a><br><a href="about us.html" class="text-black">Governance</a><br><a href="about us.html" class="text-black">Get In Touch</a>
+</a>                    <br><a href="about us.html#header1-2k" class="text-success">Our Vision&nbsp;</a><br><a href="about us.html#header1-2k" class="text-black">Our Mission</a><br><a href="about us.html#header1-4z" class="text-black">Our Background</a><br><a href="about us.html#team1-1m" class="text-black">Our Team</a><br><br><a href="about us.html#team1-1m">Our Board Members</a><br><a href="about us.html#team1-1m" class="text-black">Governance</a><br><a href="Contact us.html" class="text-black">Get In Touch</a>
 <br></p>
             </div>
             <div class="col-md-3 col-sm-4">
                 <p class="mb-4 mbr-fonts-style foot-title display-7"><font color="#a6a6a6"><strong>WHAT WE DO</strong></font></p>
-                <p class="mbr-text mbr-fonts-style mbr-links-column display-7"><a href="what we do.html">Maternal &amp; Child Health</a><br><a href="what we do.html" class="text-success">Women Empowerment</a><br><a href="what we do.html">Raising Girls' Voices<br></a><br><a href="what we do.html">Adolescent Health</a><br><a href="what we do.html">Reproductive Health</a><br><a href="what we do.html" class="text-primary">Hepatitis Immunisation</a><br><a href="what we do.html" class="text-black">HIV Sensitisation</a><br><a href="what we do.html" class="text-black">Nutritional education</a><br><a href="what we do.html" class="text-black">Environmental protection</a><br><a href="#" class="text-black"></a><a href="what we do.html">Our target areas</a><br>
+                <p class="mbr-text mbr-fonts-style mbr-links-column display-7"><a href="what we do.html#services1-4b">Maternal &amp; Child Health</a><br><a href="what we do.html#services1-47" class="text-success">Women Empowerment</a><br><a href="what we do.html"></a><a href="what we do.html#services1-4b">Raising Girls' Voices</a><br><br><a href="what we do.html#services1-4b" class="text-black">Adolescent Health</a><br><a href="what we do.html#services1-4b" class="text-black">Reproductive Health</a><br><a href="what we do.html#services2-4a" class="text-black">Hepatitis&nbsp;</a>awareness<br><a href="what we do.html#services2-4a" class="text-black">HIV Sensitisation</a><br>Nutritional education<br>Environmental protection<br><a href="#" class="text-black"></a><a href="Where we work.html">Our target areas</a><br>
                 </p>
             </div>
             <div class="col-md-4 col-sm-12">
                 <p class="mb-4 mbr-fonts-style foot-title display-7"><strong>
                     SUBSCRIBE</strong></p>
-                <p class="mbr-text form-text mbr-fonts-style display-7">
-                    Get monthly updates and free resources.
+                <p class="mbr-text form-text mbr-fonts-style display-7">PADAFRICA focuses onto providing community health services, empowerment of women, Adolescent &amp; Raising girls' Voices.  Hepatitis &amp; HIV awareness, Nutritional education, weakened societies and environmental protection. education is the main key issues of focus by the organization.<br><strong>Get monthly updates and free resources.</strong><br>
                 </p>
                 <div class="media-container-column" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="kO7l4sCpgmZoH5NWgg4Td4Q28zaIEmsIOvke8Z+bo7XP/a1Pq26BRxIhu54RnC9hGaJVeoti81cV6LURzKR4UwmF8I2eT8pluLAw1tK/SMFBz+lcDNyXj7dD4LryMT21">
+                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="lYW3BROqYaEV7tQL/eqlVlmOqGIT9UhclMUH5iybb6EHlZpgMCuYNfRe7Jgdwz8tnvWHyM0yMl8/WL0KCflYLF3VrBUF6eEi2BSUmOucEeJrnhxMhCNg0pwG/S+JBGvZ">
                         <div class="row form-inline justify-content-center">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for Subscribing for updates from PADAFRICA</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -521,7 +522,7 @@
                         </div>
                         <div class="dragArea row form-inline justify-content-center">
                             <div class="col-auto form-group " data-for="email">
-                                <input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control input-sm input-inverse my-2 display-7" id="email-footer3-28">
+                                <input type="email" name="email" placeholder="Enter your Email Here" data-form-field="Email" required="required" class="form-control input-sm input-inverse my-2 display-7" id="email-footer3-55">
                             </div>
                             <div class="col-auto input-group-btn  m-2"><button type="submit" class="btn m-0 btn-secondary display-4">Subscribe</button></div>
                         </div>
@@ -545,20 +546,16 @@
                 <div class="col-md-6">
                     <div class="social-list align-right">
                         <div class="soc-item">
-                            <a href="https://twitter.com/padafrica" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(85, 180, 212); fill: rgb(85, 180, 212);"></span>
+                            <a href="https://twitter.com/PADAFRICA1" target="_blank">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(85, 180, 212); fill: rgb(85, 180, 212); font-size: 25px;"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/pages/padafrica" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153);"></span>
+                            <a href="https://www.facebook.com/Peoples-Action-for-Development-of-Africa-317704995397865/" target="_blank">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(15, 118, 153); fill: rgb(15, 118, 153); font-size: 25px;"></span>
                             </a>
                         </div>
-                        <div class="soc-item">
-                            <a href="https://www.youtube.com/c/padafrica" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-googleplus socicon" style="color: rgb(239, 54, 0); fill: rgb(239, 54, 0);"></span>
-                            </a>
-                        </div>
+                        
                         
                         
                         
@@ -574,14 +571,16 @@
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/datatables/jquery.data-tables.min.js"></script>
+  <script src="assets/datatables/data-tables.bootstrap4.min.js"></script>
   <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/mbr-testimonials-slider/mbr-testimonials-slider.js"></script>
   <script src="assets/sociallikes/social-likes.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
