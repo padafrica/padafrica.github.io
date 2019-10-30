@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-05_2304",
-    "currentPage": "index.html",
+    "currentPage": "search.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1865,10 +1865,10 @@
         }
       ]
     },
-    "searche.html": {
+    "search.html": {
       "settings": {
-        "meta_descr": "search engine",
-        "title": "search engine",
+        "meta_descr": "search",
+        "title": "search",
         "order": 3
       },
       "components": [
